@@ -28,8 +28,9 @@ body header .logo {
   display: flex;
 }
 
-body header .logo div img {
+body header .logo div .glyphicon-leaf {
   width: 50px;
+  font-size: 50px;
   margin-right: 0.6em;
 }
 
@@ -54,7 +55,7 @@ body header nav .menu div img {
 body header nav .menu2 {
   width: 90%;
   position: absolute;
-  top: 120px;
+  top: 200px;
   background-color: #EDEDED;
   color: #ffffff;
   display: none;
@@ -100,10 +101,65 @@ body main .section1 .column1 h1 {
 
 body main .section1 .column2 {
   grid-column: span 12;
+  width: 100%;
+  height: 300px;
+  background-image: url("./images/home3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-body main .section1 .column2 img {
-  width: 100%;
+body main .section1 .column2 .tracker_container {
+  width: 80%;
+  margin: auto auto;
+  margin-top: 2em;
+}
+
+body main .section1 .column2 .tracker_container .trackers {
+  text-align: center;
+  width: 200px;
+  margin: 0em auto;
+}
+
+body main .section1 .column2 .tracker_container .trackers .tracker {
+  width: 20px;
+  height: 3px;
+  padding: 0.01em 0.5em;
+  border: 2px solid;
+  border-radius: 100px;
+  margin-right: 5px;
+}
+
+body main .section1 .column2 .tracker_container .direction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 10px;
+  display: none;
+}
+
+body main .section1 .column2 .tracker_container .direction .prev_wrapper {
+  border: 2px solid;
+  width: 50px;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+body main .section1 .column2 .tracker_container .direction .prev_wrapper .glyphicon-chevron-left {
+  font-size: 30px;
+}
+
+body main .section1 .column2 .tracker_container .direction .next_wrapper {
+  border: 2px solid;
+  width: 50px;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+body main .section1 .column2 .tracker_container .direction .next_wrapper .glyphicon-chevron-right {
+  font-size: 30px;
 }
 
 body main .section1 .column3 {
@@ -180,6 +236,12 @@ body main .section2 div img {
   border-radius: 50px;
 }
 
+body main .section2 div .glyphicon-signal {
+  font-size: 55px;
+  color: #A081AA;
+  margin: 0.5em 0em;
+}
+
 body main .section2 div h3 {
   font-size: 1.5em;
   color: #8E7050;
@@ -251,11 +313,6 @@ body main .section3 .column1 button {
   margin: 1em 0em;
 }
 
-body main .section3 .column1 button img {
-  width: 10px;
-  border-radius: 50px;
-}
-
 body main .section3 .column1 button:hover {
   opacity: 0.7;
 }
@@ -298,11 +355,6 @@ body main .section3 .column2 button {
   margin: 1em 0em;
 }
 
-body main .section3 .column2 button img {
-  width: 10px;
-  border-radius: 50px;
-}
-
 body main .section3 .column2 button:hover {
   opacity: 0.7;
 }
@@ -321,8 +373,8 @@ body main .section3 .column3 .box1 {
   margin-bottom: 2em;
 }
 
-body main .section3 .column3 .box1 div img {
-  width: 50px;
+body main .section3 .column3 .box1 div .glyphicon-qrcode {
+  font-size: 50px;
   margin-right: 1em;
 }
 
@@ -399,10 +451,11 @@ body main .section4 .column1 {
   grid-column: span 12;
 }
 
-body main .section4 .column1 div img {
+body main .section4 .column1 div .glyphicon-leaf {
   width: 80px;
+  font-size: 80px;
   border-radius: 50px;
-  margin: 2em 0em;
+  margin: 0.5em 0em;
 }
 
 body main .section4 .column1 .footer1 img {
@@ -461,8 +514,16 @@ body main .section4 .column3 {
   margin: 2em 0em;
 }
 
-body main .section4 .column3 div img {
-  width: 80px;
+body main .section4 .column3 .earphone {
+  width: 60px;
+  border-radius: 50px;
+  padding: 0.6em 1em;
+  background-color: #ffffff;
+}
+
+body main .section4 .column3 .earphone span {
+  width: 50px;
+  font-size: 40px;
   border-radius: 40px;
 }
 
