@@ -35,7 +35,6 @@ body .main_top {
   right: 1.5em;
   border-radius: 10px;
   z-index: 100;
-  display: none;
 }
 
 body .main_top:hover {
@@ -464,7 +463,7 @@ body main .section3 .column3 .box a .fa {
 }
 
 body main .section3 .column3 .box a h2 {
-  color: #302b24;
+  color: #8E693C;
   font-size: 1.5em;
   display: inline;
   margin-bottom: 0;
@@ -627,7 +626,7 @@ body main .section4 .column3 .infos {
 
 body main .section4 .column3 .infos .glyphicon {
   width: 15px;
-  margin-right: 0.3em;
+  margin-right: 0.5em;
 }
 
 body main .section4 .column3 .phone {
