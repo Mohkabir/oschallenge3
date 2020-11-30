@@ -795,6 +795,9 @@ body footer .donate {
     padding: 0em;
     text-align: left;
   }
+  body header nav ul .blogs {
+    padding: 0;
+  }
   body header nav ul .home {
     background-color: #ffffff;
     color: #8E7050;
@@ -1127,7 +1130,7 @@ body footer .donate {
     grid-row: 1/2;
   }
   body main .section3 .column3 .box a h2 {
-    color: #302b24;
+    color: #8E693C;
     font-size: 1.3em;
     margin-bottom: 0;
     -ms-grid-column: 3;
