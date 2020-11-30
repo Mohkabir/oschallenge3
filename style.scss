@@ -32,7 +32,6 @@ body {
     right: 1.5em;
     border-radius: 10px;
     z-index: 100;
-    display: none;
 
     &:hover{
       background-color:rgba(84, 68, 46,0.9);   
@@ -430,7 +429,7 @@ body {
           }
 
           h2 {
-            color: #302b24;
+            color: #8E693C;
             font-size: 1.5em;
             display: inline;
             margin-bottom: 0;
@@ -588,7 +587,7 @@ body {
 
           .glyphicon {
             width: 15px;
-            margin-right: 0.3em;
+            margin-right: 0.5em;
           }
         }
 
