@@ -28,10 +28,11 @@ body {
     text-align: center;
     background-color:rgba(84, 68, 46,0.5);
     position: fixed;
-    bottom: 4.5em;
+    bottom: 3em;
     right: 1.5em;
     border-radius: 10px;
     z-index: 100;
+    display: none;
 
     &:hover{
       background-color:rgba(84, 68, 46,0.9);   
@@ -60,10 +61,11 @@ body {
           font-size: 40px;
           margin-right: 0.5em;
           margin-top: 0.5em;
+          color: #686868;
         }
       }
         h2{
-          color: #A3717C;
+          color: #686868;
         }
         p{
 
@@ -101,6 +103,9 @@ body {
         .fa{
           display: none;
         }
+        .sub_nav{
+          display: none;
+        }
         div{
           margin: 0em;
           padding: 0em;
@@ -116,8 +121,9 @@ body {
           padding-left: 5px;
           margin-top: 5px;
           &:hover{
-            background-color: #50C6C6;
+            background-color: rgb(118, 155, 255);
             color: #ffffff;
+            text-decoration: none;
           }
         }
       }
@@ -195,8 +201,8 @@ body {
   
             .direction {
               display: flex;
-              justify-content: space-evenly;
-              padding: 10px 10px;
+              justify-content: space-between;
+              padding: 10px 20px;
               display: none;
               
               
@@ -352,6 +358,13 @@ body {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
       padding: 4em 1em;
+      a{
+        color: #E9B977;
+        text-decoration: none;
+      }
+      img{
+      width: 90%;
+      }
       .column{
         h3 {
           font-size: 1.3em;
@@ -363,7 +376,7 @@ body {
           display: flex;
           margin-bottom: 1em;
           flex-wrap: wrap;
-          font-size: 0.7em;
+          font-size: 0.8em;
 
 
           span {
@@ -396,21 +409,31 @@ body {
       .column3 {
         grid-column: span 12;
         .box {
-          display: flex;
+          a{
+            display: flex;
           flex-wrap: wrap;
           background-color: #54442E;
           color: #ffffff;
           padding: 1.5em;
           margin-bottom: 2em;
+          text-decoration: none;
+          p{
+            display: inline;
+            margin-top: 0;
+          }
 
           .fa {
+            width: 40px;
             font-size: 60px;
-            margin-right: 1em;
+            margin-right: 0.3em;
+            display: inline;
           }
 
           h2 {
-            color: #8E693C;
-            font-size: 1.3em;
+            color: #302b24;
+            font-size: 1.5em;
+            display: inline;
+            margin-bottom: 0;
           }
           
           &:hover {
@@ -419,6 +442,7 @@ body {
             h2{
               color:#54442E ;
             }
+          }
           }
         }
       }
@@ -447,15 +471,15 @@ body {
             margin-top: 11px;
             margin-left: 6px;
           }
-          h2{
-            margin: 1em 0em;
-          }
-
+        }
+        h2{
+          margin: 1em 0em;
+          color: #686868;
         }
 
         .footer1 {
           img {
-            width: 80%;
+            width: 90%;
             border-radius: 0em;
             margin: 1em 0em;
           }
@@ -562,7 +586,7 @@ body {
           display: flex;
           margin: 0px;
 
-          img {
+          .glyphicon {
             width: 15px;
             margin-right: 0.3em;
           }
@@ -571,22 +595,34 @@ body {
         .phone {
           display: flex;
           margin: 0.7em 0em;
-
-          img {
-            width: 15px;
-            margin-right: 0.3em;
+          .fa{
+            margin-right: 0.2em;
           }
         }
       }
     }
   }
-
   footer {
     text-align: center;
     background-color: #242424;
-    color: #8E6436;
+    color: #ffffff;
     padding: 2em;
     margin-bottom: 2em;
+    p{
+     color: #686868;
+    }
+     a{
+       color: #8E6436;
+       &:hover{
+        color: #8E6436;
+        text-decoration: none;
+       }
+       
+     }
+   .donate{
+     color: #8E6436;
+     font-size: 30px;
+   }
   }
 }
 
